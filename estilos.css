@@ -59,4 +59,52 @@ ul li {
     margin: 5%;
     width: 90%;
     height: 350px;
+    border: 1px solid #000;
+}
+
+/* IMAGEN SECUNDARIA */
+
+.imagenes {
+    background-color: #d5c75f ;
+    display: flex;
+    flex-direction: row;
+}
+
+.paisajes{
+    margin: auto;
+}
+
+.paisajes img {
+    margin: 5%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    transition: 1s;
+    
+}
+
+.paisajes img:hover {
+    transform: rotate(10deg);
+   box-shadow: 2px 2px #82c3a6;
+}
+
+
+.retratos {
+    margin: auto;
+}
+
+.retratos img {
+    margin: 5%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    transition: 1s;
+    
+    
+}
+
+.retratos img:hover {
+    
+    box-shadow: 2px 2px #82c3a6;
+    transform: translate(20px, 5px);
 }
