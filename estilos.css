@@ -7,12 +7,11 @@
     border-radius: 10px 10px 0px 0px;
     display: flex;
     flex-direction: row;
-    color: #fff;
 }
 
 .titulo {
-    color: #fff;
     margin: auto;
+    text-shadow: 2px 2px  #02010a;
     
 }
 
@@ -22,6 +21,7 @@
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 ul{
