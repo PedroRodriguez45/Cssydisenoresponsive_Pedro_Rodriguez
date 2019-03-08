@@ -108,3 +108,66 @@ ul li {
     box-shadow: 2px 2px #82c3a6;
     transform: translate(20px, 5px);
 }
+
+/*PIE DE PAGINA*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px 0px 10px 10px;
+    background-color:  #C6d5c5;
+    padding-bottom: 10px;
+}
+
+.footer ul li {
+    display: block;
+}
+
+.footer ul li a {
+    color: #000;
+}
+
+.footer p {
+    color: #000;
+}
+
+.footer h2 {
+    margin-top: 0px;
+}
+
+.contacto {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.terminos {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.redes {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.derechos {
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.derechos {
+    margin-right: 10px;
+}
+
+.facebook {
+    color: #3c5a99;
+}
+
+.twitter {
+    color: #1da1f2;
+}
+
+.instagram {
+    color: #833ab4;
+}
