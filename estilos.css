@@ -171,3 +171,30 @@ ul li {
 .instagram {
     color: #833ab4;
 }
+
+/*ESTILOS PAISAJES.HTML*/
+
+.filas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria {
+    background-color: #d5c75f;
+}
+.galeria .margen {
+    margin:20px;
+}
+
+.galeria .blur {
+    -webkit-filter: blur(10px);
+}
+
+.galeria .grayscale {
+    -webkit-filter: grayscale(100%);
+}
+
+.galeria .sepia {
+    -webkit-filter: sepia(90%);
+}
