@@ -219,3 +219,52 @@ ul li {
         margin-top: 0%;
     }
 }
+
+/*DISENO ADAPTATIVO*/
+
+@media (min-width:900px) {
+    .contenido {
+        width: 900px;
+    }
+}
+
+@media (min-width:421px) and (max-width:720px) {
+
+    .menu {
+        flex-direction: column;
+    }
+    .contenido {
+        width: 100%;
+    }
+
+    .titulo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navegacion {
+        text-align: center;
+        width:100%;
+    }
+}
+
+@media (max-width:420px) {
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .titulo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navegacion {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contenido { 
+        width: 100%;
+    }
+}
