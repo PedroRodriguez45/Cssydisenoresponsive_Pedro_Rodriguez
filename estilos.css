@@ -229,13 +229,19 @@ ul li {
 
 /*DISENO ADAPTATIVO*/
 
-@media (min-width:900px) {
+@media (max-width:900px) {
     .contenido {
         width: 900px;
     }
 }
 
-@media (min-width:421px) and (max-width:720px) {
+@media (min-width:780px) and (max-width:900px) {
+    .contenido {
+        width: 100%;
+    }
+}
+
+@media (min-width:421px) and (max-width:780px) {
 
     /*Contenido*/
 
@@ -336,5 +342,27 @@ ul li {
     .retratos {
         width: 100%;
         text-align: center;
+    }
+
+    /*Footer*/
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+    .terminos {
+        width: 100%;
+    }
+
+    .redes {
+        width: 100%;
+    }
+
+    .derechos {
+        width: 100%;
     }
 }
