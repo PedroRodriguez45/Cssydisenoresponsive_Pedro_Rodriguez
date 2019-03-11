@@ -93,6 +93,13 @@ ul li {
    box-shadow: 2px 2px #82c3a6;
 }
 
+.subtitulo{
+    text-align: center;
+    text-decoration: underline #000;
+    margin-top: 2px;
+
+}
+
 
 .retratos {
     margin: auto;
@@ -266,6 +273,28 @@ ul li {
     .retratos {
         width: 100%;
         text-align: center;
+    }
+
+    /*Footer*/
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+    .terminos {
+        width: 100%;
+    }
+
+    .redes {
+        width: 100%;
+    }
+
+    .derechos {
+        width: 100%;
     }
 }
 
