@@ -184,7 +184,7 @@ ul li {
     color: #833ab4;
 }
 
-/*ESTILOS PAISAJES.HTML*/
+/*ESTILOS PAISAJES.HTML Y RETRATOS.HTML*/
 
 .filas {
     display: flex;
@@ -302,6 +302,19 @@ ul li {
     .derechos {
         width: 100%;
     }
+
+    /*Responsive de Paisajes.html*/
+
+    .filas {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .galeria img {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 @media (max-width:420px) {
@@ -364,5 +377,18 @@ ul li {
 
     .derechos {
         width: 100%;
+    }
+
+    /*Responsive de Paisajes.html*/
+
+    .filas {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .galeria img {
+        width: 90%;
+        margin: auto;
     }
 }
