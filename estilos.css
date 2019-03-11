@@ -230,13 +230,18 @@ ul li {
 
 @media (min-width:421px) and (max-width:720px) {
 
-    .menu {
-        flex-direction: column;
-    }
+    /*Contenido*/
+
     .contenido {
         width: 100%;
     }
 
+    /*Header*/
+
+    .menu {
+        flex-direction: column;
+    }
+   
     .titulo {
         text-align: center;
         width: 100%;
@@ -246,9 +251,33 @@ ul li {
         text-align: center;
         width:100%;
     }
+
+    /*Imagenes centrales*/
+
+    .imagenes {
+        flex-direction: column;
+    }
+
+    .paisajes {
+        width: 100%;
+        text-align: center;
+    }
+
+    .retratos {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width:420px) {
+
+    /*Contenido*/
+
+    .contenido { 
+        width: 100%;
+    }
+
+    /*Header*/
 
     .menu {
         flex-direction: column;
@@ -264,7 +293,19 @@ ul li {
         width: 100%;
     }
 
-    .contenido { 
+    /*Imagenes centrales*/
+
+    .imagenes {
+        flex-direction: column;
+    }
+
+    .paisajes {
         width: 100%;
+        text-align: center;
+    }
+
+    .retratos {
+        width: 100%;
+        text-align: center;
     }
 }
